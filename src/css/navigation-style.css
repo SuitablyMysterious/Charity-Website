@@ -1,0 +1,6 @@
+#navigation {
+    font-family: "Inter", Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto;
+}
