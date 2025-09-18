@@ -8,6 +8,7 @@ body {
 .header {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+    color: #ffffff;
     font-size: 50px;
     text-align: center;
     background-image: url("https://static.vecteezy.com/system/resources/thumbnails/046/966/587/small/beautiful-seascape-panoramic-view-of-the-sea-and-blue-sky-free-photo.jpeg");
