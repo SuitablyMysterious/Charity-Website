@@ -13,11 +13,12 @@
     <h2>Royal Society for the Prevention of Cruelty to Pigeons</h2>
   </div>
   <div id="navigation"></div>
-    <script src="src/js/jquery.js"></script> 
-    <script> 
-    $(function(){
-      $("#navigation").load("src/html/navigation.html"); 
-    });
-    </script> 
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    if (!window.jQuery) {
+      document.write('<script src="src/js/jquery.js"><\/script>');
+    }
+  </script>
+  <script src="src/js/jquery-init.js"></script>
 </body> 
 </html>
