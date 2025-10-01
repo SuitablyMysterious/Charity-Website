@@ -12,10 +12,12 @@
 
 li {
     padding: 5px;
+    font-size: clamp(10px, 2vw, 20px);
 }
 
 li:hover {
     background-color: #2b4067;
+    font-size: clamp(11px, 2.1vw, 21px);
 }
 
 .header {
