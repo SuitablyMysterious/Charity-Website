@@ -5,9 +5,17 @@
 }
 
 #navigation {
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+}
+
+li {
+    padding: 5px;
+}
+
+li:hover {
+    background-color: #2b4067;
 }
 
 .header {
