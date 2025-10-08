@@ -1,0 +1,21 @@
+{
+  "name": "charity-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server ./ -p 8080 -a 0.0.0.0 -c-1",
+    "dev": "npx live-server --port=8080 --host=0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suitablymysterious/RSPCP-Website.git"
+  },
+  "author": "SuitablyMysterious",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suitablymysterious/RSPCP-Website/issues"
+  },
+  "homepage": "https://github.com/suitablymysterious/RSPCP-Website#readme"
+}

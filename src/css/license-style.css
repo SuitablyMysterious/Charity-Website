@@ -1,4 +1,13 @@
-#navigation {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+body {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 250px 150px;
+}
+
+.license-text {
+    font-size: larger;
+    padding: 5px
+}
+#main-license {
+    text-decoration: underline;
 }
